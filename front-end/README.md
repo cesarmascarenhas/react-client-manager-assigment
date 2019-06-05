@@ -42,7 +42,7 @@ npm test
 * CSS / HTML, no frameworks
 * Short-circuit, arrow functions, destructuring, async await, ...
 
-# **Observações importantes**
+# **Notes**
 * The choice for not to use frameworks to compose the application's UI is  to display the knowledge in CSS.
 * Masks and validation of data (eg CPF / CNPJ) were not implemented with the purpose of facilitating the inclusion and registration of data for testing  purpose. 
 
