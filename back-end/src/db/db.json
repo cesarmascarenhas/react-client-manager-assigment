@@ -1,0 +1,178 @@
+{
+  "users": [
+    {
+      "_id": 0,
+      "username": "admin",
+      "password": "admin",
+      "role": 9
+    },
+    {
+      "_id": 1,
+      "username": "user",
+      "password": "user",
+      "role": 5
+    },
+    {
+      "_id": 2,
+      "username": "noob",
+      "password": "noob",
+      "role": 1
+    }
+  ],
+  "clients": [
+    {
+      "_id": 0,
+      "name": "Peter Quill",
+      "business": true,
+      "code": "98989898",
+      "address": "",
+      "created": "2019-05-27T00:17:26.553Z",
+      "updated": "2019-05-29T19:17:48.345Z",
+      "contact": {
+        "email": "peterquill@outerspace.com",
+        "tel": "123456",
+        "cel": ""
+      }
+    },
+    {
+      "_id": 1,
+      "name": "Bruce Wayne",
+      "business": true,
+      "code": "88888888",
+      "address": "",
+      "contact": {
+        "email": "doyoubleed@question.com",
+        "tel": "",
+        "cel": ""
+      },
+      "created": "2019-05-27T20:14:33.723Z",
+      "updated": ""
+    },
+    {
+      "_id": 4,
+      "name": "Nome Realmente Longo e Grande da Silva Costa Ribeiro Santos",
+      "business": false,
+      "code": "11111111111",
+      "address": "",
+      "contact": {
+        "email": "nomegrande@teste.com",
+        "tel": "5522114477",
+        "cel": "123456789"
+      },
+      "created": "2019-05-27T20:23:03.708Z",
+      "updated": "2019-05-30T13:37:30.273Z"
+    },
+    {
+      "_id": 5,
+      "name": "Peter Parker",
+      "business": false,
+      "code": "112255585",
+      "address": "",
+      "contact": {
+        "email": "spiderman@avengers.com",
+        "tel": "12312323",
+        "cel": "123456789"
+      },
+      "created": "2019-05-28T18:31:06.288Z",
+      "updated": "2019-05-31T12:23:39.712Z"
+    },
+    {
+      "_id": 6,
+      "name": "Steve Jobs",
+      "business": false,
+      "code": "DEPYKWE",
+      "address": "",
+      "contact": {
+        "email": "steve@apple.com",
+        "tel": "",
+        "cel": ""
+      },
+      "created": "2019-05-28T18:34:34.049Z",
+      "updated": ""
+    },
+    {
+      "_id": 7,
+      "name": "Bruce Banner",
+      "business": false,
+      "code": "cd743ayrteww",
+      "address": "",
+      "contact": {
+        "email": "thehulk@green.com",
+        "tel": "",
+        "cel": ""
+      },
+      "created": "2019-05-28T18:35:09.487Z",
+      "updated": ""
+    },
+    {
+      "_id": 8,
+      "name": "Mary Jane",
+      "business": false,
+      "code": "5859565352515457",
+      "address": "",
+      "contact": {
+        "email": "maryjane@outlook.com",
+        "tel": "",
+        "cel": ""
+      },
+      "created": "2019-05-28T18:35:49.153Z",
+      "updated": ""
+    },
+    {
+      "_id": 11,
+      "name": "Steve Rogers",
+      "business": false,
+      "code": "96969696",
+      "address": "",
+      "contact": {
+        "email": "capitaoamerica@avengers.com",
+        "tel": "123",
+        "cel": "123456"
+      },
+      "created": "2019-05-28T18:40:44.188Z",
+      "updated": "2019-05-30T13:22:41.057Z"
+    },
+    {
+      "_id": 12,
+      "name": "Arthur Curry",
+      "business": true,
+      "code": "123456789",
+      "address": "",
+      "contact": {
+        "email": "aquaman@dc.com",
+        "tel": "",
+        "cel": "123456"
+      },
+      "created": "2019-05-28T18:41:40.130Z",
+      "updated": "2019-05-29T20:41:30.001Z"
+    },
+    {
+      "_id": 13,
+      "name": "GROOT",
+      "business": false,
+      "code": "88996633",
+      "address": "Rui da Costa Maia, 7",
+      "contact": {
+        "email": "imgroot@gmail.com",
+        "tel": "",
+        "cel": ""
+      },
+      "created": "2019-05-30T16:06:06.625Z",
+      "updated": "2019-05-30T16:07:22.087Z"
+    },
+    {
+      "_id": 14,
+      "name": "Oliver Queen",
+      "business": false,
+      "code": "789456123",
+      "address": "",
+      "contact": {
+        "email": "greenarrow@me.com",
+        "tel": "",
+        "cel": ""
+      },
+      "created": "2019-05-30T16:07:55.965Z",
+      "updated": ""
+    }
+  ]
+}

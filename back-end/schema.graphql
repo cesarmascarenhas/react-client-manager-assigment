@@ -1,0 +1,55 @@
+type Query {
+  exists (code: String!): Client!
+  clients: [Client!]!
+  login (username: String!, password:String!): User!
+  search (keyword: String!): [Client!]!
+}
+
+type Mutation {
+  addClient(
+    name: String!, 
+    business: Boolean!,
+    code:String!,
+    address: String!,
+    contact: ContactInput!
+  ): Client!
+  updateClient(
+    _id: ID!,
+    name: String, 
+    business: Boolean,
+    code:String,
+    address:String,
+    contact: ContactInput
+  ): Client 
+  deleteClient(_id: ID!): Boolean!
+
+}
+type User{
+  _id:ID!,
+  username: String!,
+  password: String!,
+  role: Int!
+}
+
+type Client {
+  _id: ID!,
+  name: String!
+  business: Boolean!,
+  code: String!,
+  address: String!,
+  contact: Contact!,
+  created: String!
+  updated: String,
+}
+
+type Contact {
+  email: String!,
+  tel: String,
+  cel: String,
+}
+
+input ContactInput {
+  email: String,
+  tel: String,
+  cel: String,
+}
