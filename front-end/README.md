@@ -43,6 +43,7 @@ npm test
 * Short-circuit, arrow functions, destructuring, async await, ...
 
 # **Notes**
+* ***Sleep function in API has the purpose of simulate the delay from the server, thus showing the loading UI feedback.***
 * The choice for not to use frameworks to compose the application's UI is  to display the knowledge in CSS.
 * Masks and validation of data (eg CPF / CNPJ) were not implemented with the purpose of facilitating the inclusion and registration of data for testing  purpose. 
 
